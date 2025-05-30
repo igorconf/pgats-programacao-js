@@ -16,12 +16,8 @@ function exibirNomePet(paramNomePet) {
 }
 
 function exibirIdade(paramIdadePet) {
-    console.log(`O nome do pet e ${paramIdadePet}`)
+    console.log(`A idade do pet e ${paramIdadePet}`)
 }
-
-exibirNomePet("Pipoca")
-exibirNomePet("Pantera")
-exibirNomePet("Joseph")
 
 export {
     exibirNomePet,
